@@ -29,7 +29,7 @@ div[data-testid="stMetricLabel"]   { color: #aaaaaa; }
 # ── LOAD DATA ─────────────────────────────────────────────────
 @st.cache_data
 def load_data():
-    return pd.read_csv("master_final(2).csv")
+    return pd.read_csv("master_final (2).csv")
 
 df = load_data()
 
